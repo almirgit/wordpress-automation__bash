@@ -1,0 +1,31 @@
+#!/bin/bash
+
+export osversion="18.04"
+export osupgrade=no
+
+export sethostname=yes
+export hostname=example.com
+
+export sitename=example.com
+export includewwwprefix=no
+export var_www=/var/www
+export sitedir=$var_www/$sitename
+
+export createuser=yes
+export username=ptica
+
+export creategroup=no
+export groupname=wp_group
+
+export userpass=QhXySWtxkaB8Yi2fbb
+export userpubkey="ssh-rsa AAAAB3NzaC1yc2EbddddddddddddddfjfjfGzr5/juerPewMUqsGBUvgY4OPnnHwe/7svZim64HJgakjwobzehduFUnBOHlpquCHasGhhMfpdfsafadfafdfabRkleamhUZehrZ6DMoJY7onVRhxg4DlnDwxx6eradNELmgYWNHffMwwxfHHQ3JLKonamUBUey7RTjnUraRIqIfqdChGyBq4FYbb5k2GiyFiKpVob4nGLyALrmqH7MY8T8pwqCvrVJaWWLuFvhNHJZ7LuLbismPi7INZMEjuumfZ8zkFedCRL0BRV4l2KtAJghTuiBCcpFXLmhOc7gb5/yi4q0K6HMJO/k7RvTp82sjWhZKfZNq8R8AzIJ0b almir@t470pde"
+
+export db_name=wp_example_com_db
+export db_user=wp_example_com_user
+export db_pass=qMBp6GXSLbWsdswwK9mp1Q
+export certbot_email=user@example.com
+#export httpauthuser=
+#export httpauthpass=
+
+export backup_dir=/root/wpbackup
+export restore_name=dev.example.com
